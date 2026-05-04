@@ -44,9 +44,9 @@ h2{
 }
 
 .summary{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 100%; */
     gap: 2rem;
 }
 
@@ -54,22 +54,28 @@ h2{
     padding: 2rem;
     background-color: #fff;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 100%;
     color: rgb(0, 184, 0);
+    transition: 0.3s ease;
+    cursor: pointer;
+
 }
+
 .income-cont p{
     font-weight: 700;
     font-size: 25px;
 
-}
+} 
 .expense-cont{
     padding: 2rem;
     background-color: #fff;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 100%;
     color: rgb(225, 16, 16);
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .expense-cont p{
@@ -78,12 +84,43 @@ h2{
 
 }
 
+.income-cont:hover, .expense-cont:hover{
+    transform: translateY(-2px);
+}
+
 
 
 .main-content{
     display: flex;
     flex-direction: row;
     margin-top: 1.5rem;
-    color: black;
 }
+
+.transaction-cont{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.transaction-cont ul{
+    list-style: none;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+.form-cont{
+    padding: 24px;
+    background-color: #ececec;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form {
+    
+}
+
+
 
