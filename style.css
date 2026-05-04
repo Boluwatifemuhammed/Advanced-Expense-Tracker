@@ -5,6 +5,71 @@
 }
 
 body{
-    background: linear-gradient(to right, blue red);
+    background: linear-gradient(135deg, rgb(113, 135, 255), rgb(162, 227, 255));
     font-family: 'poppins';
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+    color: rgb(48, 48, 48);
+
+}
+
+.cont{
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.balance-cont{
+    background: linear-gradient(135deg, rgb(69, 143, 255), rgb(61, 80, 253));
+    padding: 3rem;
+    border-radius: 15px;
+
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+}
+
+.income-cont{
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    color: rgb(0, 184, 0);
+}
+
+.expense-cont{
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    color: rgb(225, 16, 16);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
 }
