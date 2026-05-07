@@ -114,23 +114,36 @@ h2{
     background-color: #ececec;
     border-radius: 15px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
-.form-container form {
-
-}
 
 input{
     border-radius: 10px;
     padding: 0.7rem;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid #bababa;
+    transition: all 0.2s ease;
 }
 
 .form-cont h2{
     text-align: left;
     font-size: 1rem;
 }
+.form-cont form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    margin-bottom: 10px;
+}
 
+label{
+    display: block;
+    margin-bottom: 8px;
 
+}
 
