@@ -69,5 +69,5 @@ form.addEventListener("submit", function(e){
 
     description.value = "";
     amount.value = "";
-})
+});
 
