@@ -67,6 +67,7 @@ form.addEventListener("submit", function(e){
 
     updateUI();
 
-    description.value = ""
+    description.value = "";
+    amount.value = "";
 })
 
