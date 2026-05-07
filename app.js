@@ -4,7 +4,7 @@ const expenseAmount = document.getElementById("expense-amount");
 const transactionList = document.getElementById("transaction-list");
 const description = document.getElementById("description");
 const amount = document.getElementById("amount");
-const form = document.getElementById("transaction-list");
+const form = document.getElementById("transaction-form");
 
 let transactions = [];
 
