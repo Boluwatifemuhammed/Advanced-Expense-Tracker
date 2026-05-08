@@ -71,6 +71,6 @@ form.addEventListener("submit", function(e){
 });
 
 if (transactions.length == 0) {
-    transactionList.innerHTML = "Add a Transaction"
+    transactionList.innerHTML = "Add a Transaction!"
     
 };
