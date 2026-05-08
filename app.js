@@ -71,6 +71,12 @@ form.addEventListener("submit", function(e){
 });
 
 if (transactions.length == 0) {
-    transactionList.innerHTML = "Add a Transaction!"
+    transactionList.innerHTML = `
+        <div class="empty-message">
+            Add a Transaction!
+        </div>
+    `;
     
-};
+    return;
+    
+}

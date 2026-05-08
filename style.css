@@ -201,6 +201,26 @@ button:hover{
      
 }
 
+.empty-message{
+        width: 100%;
+    padding: 2rem;
+    text-align: center;
+
+    background-color: #f5f7ff;
+
+    border: 2px dashed #9bb0ff;
+
+    border-radius: 12px;
+
+    color: #6c7cff;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    margin-top: 1rem;
+}
+
 @media (max-width:800px) {
     .main-content{
         flex-direction: column;
