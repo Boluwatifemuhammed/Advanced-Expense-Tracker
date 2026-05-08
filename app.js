@@ -70,3 +70,7 @@ form.addEventListener("submit", function(e){
     amount.value = "";
 });
 
+if (transactions.length == 0) {
+    transactionList.innerHTML = "Add a Transaction"
+    
+};
